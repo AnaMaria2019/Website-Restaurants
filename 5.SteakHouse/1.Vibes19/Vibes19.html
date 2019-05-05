@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Vibes19</title>
+	<meta charset = "UTF-8">
+	<meta name = "description" content = "Presentation of Vibes19 restaurant">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta name = "keywords" content = "Vibes19, gathering place, electic wines, Grills">
+	<meta name = "author" content="Ana-Maria">
+	<link rel="stylesheet" type="text/css" href="style_Vibes19.css">
+	<script src="Vibes19.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<a href="../../1.HomePage/HomePage.html"><img src="../../Images/logo.png" alt="logo" class="logo"></a>
+
+		<nav class="menu">
+			<ul>
+				<li><a href="../../1.HomePage/HomePage.html">Home</a></li>
+				<li><a href="../../6.About/About.html">About</a></li>
+			</ul>
+		</nav>
+
+		
+		<div id = "search">
+			<!--<input type="search" placeholder = "Search the restaurant" id = "wanted_restaurant">-->
+			<i id = "search_icon" class="fa fa-search" aria-hidden="true" onclick = "SearchBar()"></i>
+		</div>
+		
+
+	</header>
+
+	
+	<div id = "container_mare">
+		<div id = "back"><div onclick="GoBack()"><i id = "back_icon" class="fa fa-chevron-left" aria-hidden="true"></i></div> </div>
+
+		<div id = "container_mic">
+			<section>
+				<h1>Vibes19</h1>
+				<p>Vibes19, the Steak House with New York vibes is the perfect gathering place for happy friends and good times, offering a wide variety of Hearty Starters, Grills and Fusions, in addition to electic wines and cocktails.</p>
+			</section>
+
+			<div class = "header" id = "myheader">
+				<div class = "bar_menu">
+					<div class = "button">
+						<a href="#starters" class = "cerc"></a>
+						<p>Starters</p>
+					</div>
+
+					<div class = "button">
+						<a href="#salads" class = "cerc"></a>
+						<p>Salads</p>
+					</div>
+
+					<div class = "button">
+						<a href="#soups" class = "cerc"></a>
+						<p>Soups</p>
+					</div>
+
+					<div class = "button">
+						<a href="#burgers" class = "cerc"></a>
+						<p>Burgers</p>
+					</div>
+
+					<div class = "button">
+						<a href="#grill" class = "cerc"></a>
+						<p>Grill</p>
+					</div>
+				</div>
+
+				<div id = "range" style = "margin-left: 50px; margin-bottom: 20px">
+					<input id = "input_range" type = "range" min = "20" max = "150" value = "150" style = "float: right; margin-right: 5%">
+					
+				</div>
+			</div>
+
+			<div class = "content" id = "types">
+				<div id="starters" class = "margin">
+					<h2>Starters</h2>
+					<div class = "flex" id = "1">
+						<div class = "afisare">
+							<h3>Avocado & Shrimps - 210g</h3> <!--nume fel de starter si gramaj-->
+							<p>Double trouble, Avocado and shrimps, served with Thousand Island Dressing.</p> <!--ingrediente-->
+							<p class = "price">40 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Turkey Flautas - 310g</h3> <!--nume fel de starter si gramaj-->
+							<p>Turkey breast served with fresh vegetables, freshly made tortilla, cheddar cheese, and guacamole.</p> <!--ingrediente-->
+							<p class = "price">32 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Crispy Onion Rings - 260g</h3> <!--nume fel de starter si gramaj-->
+							<p>Tasty, crunchy onion rings, served with tartar sauce.</p> <!--ingrediente-->
+							<p class = "price">18 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Tuna Tartar - 180g</h3> <!--nume fel de starter si gramaj-->
+							<p>Tuna served in crispy taco shell with fresh Avocado.</p> <!--ingrediente-->
+							<p class = "price">48 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Fried Chicken Strips - 380g</h3> <!--nume fel de starter si gramaj-->
+							<p>Tender fried chicken strips, served with Vibes19 special sauce.</p> <!--ingrediente-->
+							<p class = "price">29 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Nachos - 350g</h3> <!--nume fel de starter si gramaj-->
+							<p>Perfect starter, crunchy corn tortilla chips, guacamole, drizzled with cheddar ceese, yogurt sauce, and salsa.</p> <!--ingrediente-->
+							<p class = "price">27 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Nachos Chili Con Carne - 450g</h3> <!--nume fel de starter si gramaj-->
+							<p>Crispy corn tortilla chips, with fresh produce of beed, guacamole, drizzled with cheddar cheese and yogurt sauce.</p> <!--ingrediente-->
+							<p class = "price">35 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Quessadillas - 400g</h3> <!--nume fel de starter si gramaj-->
+							<p>Crispy tortilla shells, filled with pan served chicken and vegetables, guacamole, drizzled with cheddar cheese and salsa.</p> <!--ingrediente-->
+							<p class = "price">35 Ron</p> <!--pret-->
+						</div>
+
+					</div>
+				</div>
+
+				<div id="salads" class = "margin">
+					<h2>Salads</h2>
+					<div class = "flex" id = "2">
+						<div class = "afisare">
+							<h3>Mexican Chicken Caesar - 330g</h3> <!--nume fel de starter si gramaj-->
+							<p>Irresistible combo, grilled chicken, lettuce, avocado, crunchy tortilla chips, served with Spicy Caesar dressing.</p> <!--ingrediente-->
+							<p class = "price">35 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Chicken Caesar - 310g</h3> <!--nume fel de starter si gramaj-->
+							<p>Tender grilled chicken with lettuce, crispy tortilla, served with Caesar dressing.</p> <!--ingrediente-->
+							<p class = "price">32 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Grilled Halloumi - 230g</h3> <!--nume fel de starter si gramaj-->
+							<p>Flavorsome fresh Halloumi Cheese with lettuce, baby spinach and crunchy tortilla chips.</p> <!--ingrediente-->
+							<p class = "price">30 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Cobb Salad - 330g</h3> <!--nume fel de starter si gramaj-->
+							<p>Colorful mix, made of bacon, chicken, lettuce, blue chesse, dizzled with cobb salad dressing.</p> <!--ingrediente-->
+							<p class = "price">36 Ron</p> <!--pret-->
+						</div>
+					</div>
+				</div>
+
+				<div id="soups" class = "margin">
+					<h2>Soups</h2>
+					<div class = "flex" id = "3">
+						<div class = "afisare">
+							<h3>Chicken Tortilla Soup - 350ml</h3> <!--nume fel de starter si gramaj-->
+							<p>Chicken soup with tortilla.</p> <!--ingrediente-->
+							<p class = "price">20 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Broccoli Cream Soup - 350ml</h3> <!--nume fel de starter si gramaj-->
+							<p>Tahini, parmigiana, garlic and herb croutons.</p> <!--ingrediente-->
+							<p class = "price">18 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Mushroom Cream Soup - 350ml</h3> <!--nume fel de starter si gramaj-->
+							<p>Garlic and herb croutons.</p> <!--ingrediente-->
+							<p class = "price">18 Ron</p> <!--pret-->
+						</div>
+					</div>
+				</div>
+
+				<div id="burgers" class = "margin">
+					<h2>Burgers</h2>
+					<div class = "flex" id = "4">
+						<div class = "afisare">
+							<h3>Classic Burger - 550g</h3> <!--nume fel de starter si gramaj-->
+							<p>Absolute classical taste with Black Angus Beef, tomato, lettuce, pickles, grilled onion, served with fries!</p> <!--ingrediente-->
+							<p class = "price">32 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Cheese Burger - 590g</h3> <!--nume fel de starter si gramaj-->
+							<p>Smothered with cheese, made with fresh produce of Beef, tomato, lettuce, pickles, grilled onion, Marie Rose or tartar sauce, served with fries!</p> <!--ingrediente-->
+							<p class = "price">39 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Jazz Burger - 620g</h3> <!--nume fel de starter si gramaj-->
+							<p>Smoothly delicious, made with fresh produce of Beef, Bacon, tomato, lettuce, pickles, onion rings, Marie Rose or tartar sauce, served with fries!</p> <!--ingrediente-->
+							<p class = "price">39 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Avo Burger - 550g</h3> <!--nume fel de starter si gramaj-->
+							<p>Made with fresh produce of Beef, relished with guacamole, salsa, swiss cheese, served with fries!</p> <!--ingrediente-->
+							<p class = "price">44 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Victor's Burger - 550g</h3> <!--nume fel de starter si gramaj-->
+							<p>Spicy and rich, made with fresh produce of Beef, jalapenos, tomato, lettuce, pickles, crispy onion, tartar sauce, served with fries!</p> <!--ingrediente-->
+							<p class = "price">39 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Vegetarian Burger - 350g</h3> <!--nume fel de starter si gramaj-->
+							<p>Light and healthy choice, made of tomato, onion, lettuce, ketchup, served with our home made wedges!</p> <!--ingrediente-->
+							<p class = "price">28 Ron</p> <!--pret-->
+						</div>
+					</div>
+				</div>
+
+				<div id="grill" class = "margin">
+					<h2>Grill</h2>
+					<div class = "flex" id = "5">
+						<div class = "afisare">
+							<h3>Rib Eye Black Angus - Uruguay - 250g</h3> <!--nume fel de starter si gramaj-->
+							<p>Premium quality grilled Ribeye steak, served with our home-made wedges!</p> <!--ingrediente-->
+							<p class = "price">105 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Rib Eye Steak - Poland - 250g</h3> <!--nume fel de starter si gramaj-->
+							<p>Grilled to perfection, served with our home-made wedges!</p> <!--ingrediente-->
+							<p class = "price">75 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>T-Bone Steak - Holland - 500g</h3> <!--nume fel de starter si gramaj-->
+							<p>Fu for kings T-Bone steak, served with our home-made wedges!</p> <!--ingrediente-->
+							<p class = "price">145 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Sirloin Black Angus - Uruguay - 300g</h3> <!--nume fel de starter si gramaj-->
+							<p>Aromatic and fresh Sirloin steak, served with our home-made wedges!</p> <!--ingrediente-->
+							<p class = "price">105 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Skirt Steak - Uruguay - 300g</h3> <!--nume fel de starter si gramaj-->
+							<p>Thick and juicy, served with our home made wedges!</p> <!--ingrediente-->
+							<p class = "price">70 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Argentinean Beef Tenderloin - 200g</h3> <!--nume fel de starter si gramaj-->
+							<p>High quality, plumb Beef Tenderloin steak, served with our home wedges!</p> <!--ingrediente-->
+							<p class = "price">79 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>White Veal Tomahawk - Belgium - 400g</h3> <!--nume fel de starter si gramaj-->
+							<p>Exquisitely delicious White Veal Tomahawk steak, served with our home made wedges!</p> <!--ingrediente-->
+							<p class = "price">130 Ron</p> <!--pret-->
+						</div>
+
+						<div class = "afisare">
+							<h3>Romanian Beef Tenderloin - 200g</h3> <!--nume fel de starter si gramaj-->
+							<p>Traditional Beef Tenderloin steak, served with our home made wedges!</p> <!--ingrediente-->
+							<p class = "price">59 Ron</p> <!--pret-->
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="content slideShow">
+			<h2>Old town</h2>
+			<div class = "myslides fade" id = "slides">
+				<div class = "numbertext">1/3</div>
+				<img src="../../Images/CentrulVechi1.jpg" class = "img">
+			</div>
+
+			<div class = "myslides fade" id = "slides">
+				<div class = "numbertext">2/3</div>
+				<img src="../../Images/CentrulVechi2.jpg" class = "img">
+			</div>
+
+			<div class = "myslides fade" id = "slides">
+				<div class = "numbertext">3/3</div>
+				<img src="../../Images/CentrulVechi3.jpg" class = "img">
+			</div>
+
+			<div class = "dots-container">
+				<span class = "dot"></span>
+				<span class = "dot"></span>
+				<span class = "dot"></span>
+			</div>
+		</div>
+
+	</div>
+
+	<footer>
+		<div class = "component_1"></div>
+		<nav>
+			<ul>
+				<li><a href="#">Traditional</a></li>
+				<li><a href="#">Chinese</a></li>
+				<li><a href="#">Italian</a></li>
+				<li><a href="../SteakHouse.html">Steak House</a></li>
+			</ul>
+		</nav>
+		<img src="../../Images/Patrick.gif" id = "Patrick">
+	</footer>
+</body>
+</html>

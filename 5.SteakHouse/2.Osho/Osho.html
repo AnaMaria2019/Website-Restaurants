@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Osho</title>
+	<meta charset = "UTF-8">
+	<meta name = "description" content = "Presentation of Osho Restaurant">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta name = "keywords" content = "Osho, fish, seafood, first butcher's restaurant, meat">
+	<meta name = "author" content="Ana-Maria">
+	<link rel="stylesheet" type="text/css" href="style_Osho.css">
+	<script src = "Osho.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+			<a href="../../1.HomePage/HomePage.html"><img src="../../Images/logo.png" alt="logo" class="logo"></a>
+			<nav>
+				<ul>
+					<li><a href="../../1.HomePage/HomePage.html">Home</a></li>
+					<li><a href="#HouseSpecials">House Specials</a></li>
+					<li><a href="#Signatures">Side Dishes</a></li>
+					<li><a href="#Grill">Grill</a></li>
+				</ul>
+			</nav>
+
+			<div id = "search">
+				<!--<input type="search" placeholder = "Search the restaurant" id = "wanted_restaurant">-->
+				<i id = "search_icon" class="fa fa-search" aria-hidden="true" onclick = "SearchBar()"></i>
+			</div>
+	</header>
+
+	<div id = "container_mare">
+
+		<div id = "back"><div onclick="GoBack()"><i id = "back_icon" class="fa fa-chevron-left" aria-hidden="true"></i></div> </div>
+		<div id = "container_mic1">
+			
+			<section>
+				<h1>Osho</h1>
+				<p>OSHO, the first butcher's restaurant in Romania, combines the perfect taste of meat or fresh fish with the relaxing atmosphere of the restaurant, in an exquisite gourmet experience.</p>
+				<p>Meat from the world's finest cattle breeds such as Limousine, Black Angus or Wagyu is matured according to your own recipes. The complex maturation process used by OSHO requires a perfect balance between time, temperature and humidity, this being the secret to the perfect and unique taste of OSHO beef.</p>
+				<p>Fresh fish and seafood from OSHO Fish are carefully selected three times a week by the OSHO expert who buys them at 4am in Spain, the fish paradise. Along with sour sausages from Spain and Italy, OSHO menus also feature special wines from Romania, France, Italy and the New World.</p>
+			</section>
+
+			<div class="content">
+				<div id="HouseSpecials">
+					<h2>House Specials</h2>
+					<div class="meniu_restaurant">
+						<div class="column">Nume</div>
+						<div class="column">Ingrediente</div>
+						<div class="column">Gramaj</div>
+						<div class="column">Pret</div>
+
+						<div class="continut">Camarones al Mojo de Ajo</div>
+						<div class="continut">Fiesta of flavor, pan-fried garlic shrimps, mexican fried rice.</div>
+						<div class="continut">370g</div>
+						<div class="continut">59 Ron</div>
+
+						<div class="continut">Spare Ribs BBQ</div>
+						<div class="continut">Wood-fire grilled ribs, served with our home made wedges!</div>
+						<div class="continut">500g</div>
+						<div class="continut">49 Ron</div>
+
+						<div class="continut">The Aztec Schnitzel</div>
+						<div class="continut">Enjoy a zesty and savory dish, with spicy wedges.</div>
+						<div class="continut">250g</div>
+						<div class="continut">39 Ron</div>
+
+						<div class="continut">Mexican Beef Casserole</div>
+						<div class="continut">Mexican fusion dish, made with fresh produced Beef Grill, corn, black beans, bell peppers, tortilla and cheddar cheese.</div>
+						<div class="continut">200g</div>
+						<div class="continut">38 Ron</div>
+
+						<div class="continut">Chicken Fajitas with Vegetables&Tortilla</div>
+						<div class="continut">Famous chicken fajota, with guacamole, salsa, cheddar cheese and yogurt sauce.</div>
+						<div class="continut">250g</div>
+						<div class="continut">44 Ron</div>
+					</div>
+				</div>
+
+				<div id="Signatures">
+					<h2>Signatures</h2>
+					<div class="meniu_restaurant">
+						<div class="column">Nume</div>
+						<div class="column">Ingrediente</div>
+						<div class="column">Gramaj</div>
+						<div class="column">Pret</div>
+
+						<div class="continut">The Infusion Burgers</div>
+						<div class="continut">Infusion for ultimate juiciness, made with fresh produce of Beef, tomato, lettuce, pickles, onion, infused with melted cheddar, served with our home-made wedges!</div>
+						<div class="continut">550g</div>
+						<div class="continut">49 Ron</div>
+
+						<div class="continut">Grizzly Burger</div>
+						<div class="continut">Extreme hunger satisfaction, made with fresh produce of double Beef, cheddar cheese, lettuce, pickles, tartar sauce, served with our home-made wedges!</div>
+						<div class="continut">550g</div>
+						<div class="continut">49 Ron</div>
+
+						<div class="continut">Juicy Lucy</div>
+						<div class="continut">A playground of cheese delight, made with fresh produce of beef, mozzarella, tomato, lettuce, cucumber, Marie Rose sauce, and served with our home-made wedges!</div>
+						<div class="continut">550g</div>
+						<div class="continut">47 Ron</div>
+
+						<div class="continut">Chef's Gourmet Burger</div>
+						<div class="continut">Finest Gourmet Wagyu Beef Burger braised with grain, red wine, cheddar cheese, bacon, lettuce, sun dried tomato, cucumber, served with our home-made wedges!</div>
+						<div class="continut">600g</div>
+						<div class="continut">65 Ron</div>
+
+						<div class="continut">Philly Cheese Steak</div>
+						<div class="continut">Delicate Beef tenderloin with mozzarella, onion, green pepper, tabasco mayonnaise, served with our home-made wedges!</div>
+						<div class="continut">600g</div>
+						<div class="continut">45 Ron</div>
+					</div>
+				</div>
+
+				<div id="Grill">
+					<h2>Grill</h2>
+					<div class="meniu_restaurant">
+						<div class="column">Nume</div>
+						<div class="column">Ingrediente</div>
+						<div class="column">Gramaj</div>
+						<div class="column">Pret</div>
+
+						<div class="continut">Camarones al Mojo de Ajo</div>
+						<div class="continut">Fiesta of flavor, pan-fried garlic shrimps, mexican fried rice.</div>
+						<div class="continut">370g</div>
+						<div class="continut">59 Ron</div>
+
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+						<div class="continut">Pret</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id = "container_mic2">
+			
+		</div>
+	</div>
+
+	<footer>
+		<div class = "component_1"></div>
+		<nav>
+			<ul>
+				<li><a href="#">Traditional</a></li>
+				<li><a href="#">Chinese</a></li>
+				<li><a href="#">Italian</a></li>
+				<li><a href="../SteakHouse.html">Steak House</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
